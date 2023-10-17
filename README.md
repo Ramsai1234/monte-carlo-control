@@ -54,7 +54,7 @@ The agent receives a reward of 1 for reaching the goal state, and a reward of 0 
 
 
 ## MONTE CARLO CONTROL FUNCTION
-```python
+```
 import numpy as np
 from tqdm import tqdm
 
@@ -102,7 +102,7 @@ def mc_control(env, gamma=1.0, init_alpha=0.5, min_alpha=0.01, alpha_decay_ratio
 ```
 
 ### PROGRAM TO EVLUATE THE POLICY
-```python
+```
 import random
 import numpy as np
 
